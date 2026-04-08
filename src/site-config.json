@@ -1,0 +1,552 @@
+{
+  "business": {
+    "name": "Danube Construction",
+    "phone": "+17023354670",
+    "category": "remodeling contractor",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-mountain-bold",
+      "categoryGroup": "roofing",
+      "name": "Mountain Bold",
+      "recipeFile": "roofing/mountain-bold.astro",
+      "colors": {
+        "primary": "#1A3A52",
+        "primaryDark": "#0F2436",
+        "primaryLight": "#C8DDE8",
+        "secondary": "#2D5F7C",
+        "accent": "#FFC600",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#1A3A52",
+        "surface": "#F0F4F7",
+        "text": "#0F172A",
+        "textLight": "#64748B",
+        "textOnDark": "#FFFFFF",
+        "border": "#D1D5DB"
+      },
+      "typography": {
+        "headingFont": "Plus Jakarta Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "medium"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/mountain-bold"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Vegas Remodeling Done Right.",
+      "heroSubline": "Danube Construction: Building and renovating Las Vegas homes with integrity and skill. Get your free quote today!",
+      "aboutTitle": "Built on Craftsmanship, Driven by Results",
+      "aboutText": [
+        "Danube Construction started with a simple idea: provide Las Vegas homeowners with honest, reliable remodeling services. We saw too many fly-by-night operations leaving residents with shoddy work and broken promises. We decided to be different.",
+        "Our approach is straightforward: clear communication, meticulous planning, and unwavering attention to detail. We treat every project, from kitchen upgrades to whole-house renovations, as if it were our own home. We're not satisfied until you are.",
+        "We're invested in the Las Vegas community. We source materials locally whenever possible, partner with local tradespeople, and actively support local charities. We're not just building homes; we're building a better Las Vegas."
+      ],
+      "valueProps": [
+        {
+          "title": "Experienced Professionals",
+          "description": "Our team brings years of experience to every project, ensuring quality workmanship and lasting results."
+        },
+        {
+          "title": "Transparent Pricing",
+          "description": "We provide detailed, upfront estimates with no hidden fees or surprises. You'll know exactly what to expect."
+        },
+        {
+          "title": "Reliable Service",
+          "description": "We show up on time, communicate effectively, and stick to our agreed-upon timelines. Your project is our priority."
+        },
+        {
+          "title": "Licensed & Insured",
+          "description": "Danube Construction is fully licensed and insured, giving you peace of mind throughout the remodeling process."
+        }
+      ],
+      "ctaHeadline": "Ready to Transform Your Home?",
+      "ctaSubline": "Contact Danube Construction today for a free consultation and let's discuss your remodeling vision."
+    },
+    "services": [
+      {
+        "slug": "kitchen-remodeling",
+        "name": "Kitchen Remodeling",
+        "shortDescription": "Transform your kitchen into the heart of your Las Vegas home.",
+        "description": "Las Vegas kitchens face unique challenges: intense heat, hard water, and the wear and tear of frequent use. Danube Construction understands these challenges and delivers kitchen remodeling solutions built to last. Whether you're dreaming of a modern, open-concept kitchen or a cozy, traditional space, we can bring your vision to life. We handle everything from cabinet replacement and countertop installation to appliance upgrades and custom lighting. We'll work with you to select durable, heat-resistant materials that withstand the harsh Vegas climate and create a functional, beautiful kitchen you'll love for years to come.\n\nWe start with a detailed design consultation to understand your needs and preferences. Next, we develop a comprehensive plan that outlines the scope of work, budget, and timeline. Our skilled craftsmen then execute the plan with precision and care, ensuring every detail is perfect. We use only the highest-quality materials and employ proven techniques to ensure your kitchen remodel stands the test of time. From plumbing and electrical work to flooring and backsplash installation, we handle every aspect of the project with professionalism and expertise.\n\nDon't settle for a tired, outdated kitchen. Let Danube Construction create a space that inspires you to cook, entertain, and create lasting memories.",
+        "process": [
+          "Step 1: Initial Consultation & Design",
+          "Step 2: Material Selection & Budgeting",
+          "Step 3: Demolition & Construction",
+          "Step 4: Finishing Touches & Inspection"
+        ],
+        "benefits": [
+          "Increased Home Value",
+          "Improved Functionality",
+          "Enhanced Aesthetics",
+          "Customized to Your Needs"
+        ],
+        "faq": [
+          {
+            "question": "How long does a typical kitchen remodel take?",
+            "answer": "The timeline varies depending on the scope of the project, but most kitchen remodels take between 4-8 weeks. We'll provide a detailed timeline during the planning phase."
+          },
+          {
+            "question": "Do I need to move out during the remodel?",
+            "answer": "It's usually possible to remain in your home during a kitchen remodel, but it can be disruptive. We'll minimize the inconvenience as much as possible and keep you informed every step of the way."
+          },
+          {
+            "question": "What type of countertops are best for Las Vegas kitchens?",
+            "answer": "Quartz, granite, and solid surface countertops are all excellent choices for Las Vegas kitchens. They are durable, heat-resistant, and easy to maintain."
+          }
+        ]
+      },
+      {
+        "slug": "bathroom-remodeling",
+        "name": "Bathroom Remodeling",
+        "shortDescription": "Create your dream bathroom oasis with Danube Construction.",
+        "description": "Las Vegas bathrooms often suffer from hard water stains, poor ventilation, and outdated fixtures. Danube Construction specializes in bathroom remodeling solutions that address these issues and create a relaxing and functional space. Whether you're looking for a spa-like retreat or a modern, efficient bathroom, we can bring your vision to life. We handle everything from shower and tub replacements to vanity installations and custom tile work. We'll work with you to select water-saving fixtures and durable materials that withstand the harsh Vegas climate and create a bathroom you'll love for years to come.\n\nOur bathroom remodeling process begins with a thorough assessment of your existing space and a detailed design consultation. We'll discuss your needs, preferences, and budget to develop a customized plan that meets your specific requirements. Our skilled craftsmen then execute the plan with precision and care, paying attention to every detail. We use only the highest-quality materials and employ proven techniques to ensure your bathroom remodel is both beautiful and functional. From plumbing and electrical work to tile and grout installation, we handle every aspect of the project with professionalism and expertise.\n\nUpgrade your bathroom with Danube Construction and enjoy a space that is both stylish and functional. Say goodbye to outdated fixtures and hello to a relaxing and rejuvenating oasis.",
+        "process": [
+          "Step 1: Design Consultation & Planning",
+          "Step 2: Fixture & Material Selection",
+          "Step 3: Demolition & Reconstruction",
+          "Step 4: Plumbing & Electrical Updates",
+          "Step 5: Finishing Touches & Inspection"
+        ],
+        "benefits": [
+          "Increased Home Value",
+          "Improved Functionality",
+          "Enhanced Aesthetics",
+          "Water Conservation"
+        ],
+        "faq": [
+          {
+            "question": "How long does a bathroom remodel typically take?",
+            "answer": "Most bathroom remodels take between 2-4 weeks, depending on the scope of the project. We will provide a detailed timeline during the planning phase."
+          },
+          {
+            "question": "Do I need to obtain permits for a bathroom remodel?",
+            "answer": "In most cases, yes. We will handle the permit process for you, ensuring that your remodel complies with all local building codes."
+          },
+          {
+            "question": "What are some popular bathroom remodeling trends in Las Vegas?",
+            "answer": "Popular trends include walk-in showers, freestanding tubs, and modern vanities with quartz countertops. We can help you incorporate these trends into your remodel while staying within your budget."
+          }
+        ]
+      },
+      {
+        "slug": "whole-house-remodeling",
+        "name": "Whole-House Remodeling",
+        "shortDescription": "Transform your entire Las Vegas home with our comprehensive remodeling services.",
+        "description": "Is your Las Vegas home feeling outdated or cramped? Danube Construction offers comprehensive whole-house remodeling services to transform your living space into the home of your dreams. We handle everything from structural changes and room additions to interior design and finish work. We understand the unique challenges of remodeling older homes in Las Vegas, including dealing with outdated plumbing, electrical systems, and energy inefficiency. We'll work with you to create a customized plan that addresses your specific needs and preferences, while also improving the energy efficiency and value of your home.\n\nOur whole-house remodeling process begins with a detailed consultation to understand your vision and goals. We then develop a comprehensive design plan that incorporates your ideas and our expertise. Our skilled craftsmen execute the plan with precision and care, ensuring every detail is perfect. We use only the highest-quality materials and employ proven techniques to ensure your remodel is both beautiful and durable. From foundation work to roofing and everything in between, we handle every aspect of the project with professionalism and expertise.\n\nDon't settle for a home that doesn't meet your needs. Let Danube Construction create a living space that reflects your style and enhances your lifestyle.",
+        "process": [
+          "Step 1: Comprehensive Consultation & Design",
+          "Step 2: Permitting & Approvals",
+          "Step 3: Demolition & Structural Work",
+          "Step 4: Interior & Exterior Remodeling",
+          "Step 5: Final Inspection & Handover"
+        ],
+        "benefits": [
+          "Increased Home Value",
+          "Improved Energy Efficiency",
+          "Enhanced Functionality",
+          "Personalized Living Space"
+        ],
+        "faq": [
+          {
+            "question": "How long does a whole-house remodel typically take?",
+            "answer": "The timeline varies greatly depending on the scope of the project, but most whole-house remodels take between 3-6 months. We'll provide a detailed timeline during the planning phase."
+          },
+          {
+            "question": "Will I need to move out during the remodel?",
+            "answer": "In most cases, yes. It's usually not possible to remain in your home during a whole-house remodel due to the extensive work involved."
+          },
+          {
+            "question": "How much does a whole-house remodel typically cost?",
+            "answer": "The cost varies depending on the size and scope of the project. We'll provide a detailed estimate after the initial consultation."
+          }
+        ]
+      },
+      {
+        "slug": "room-additions",
+        "name": "Room Additions",
+        "shortDescription": "Expand your living space with custom room additions from Danube Construction.",
+        "description": "Need more space in your Las Vegas home? Danube Construction specializes in designing and building custom room additions that seamlessly integrate with your existing structure. Whether you're adding a new bedroom, bathroom, home office, or family room, we can create a space that meets your specific needs and enhances your lifestyle. We understand the unique challenges of building in the Las Vegas climate, including dealing with extreme heat, intense sunlight, and occasional dust storms. We'll use durable, energy-efficient materials and construction techniques to ensure your room addition is comfortable, functional, and built to last.\n\nOur room addition process begins with a thorough assessment of your property and a detailed design consultation. We'll discuss your needs, preferences, and budget to develop a customized plan that meets your specific requirements. Our skilled craftsmen then execute the plan with precision and care, paying attention to every detail. We handle everything from foundation work and framing to roofing and finish work. We'll also ensure that your room addition complies with all local building codes and regulations.\n\nExpand your living space and increase the value of your home with a custom room addition from Danube Construction.",
+        "process": [
+          "Step 1: Site Assessment & Design",
+          "Step 2: Permitting & Approvals",
+          "Step 3: Foundation & Framing",
+          "Step 4: Roofing & Exterior Finishes",
+          "Step 5: Interior Finishes & Inspection"
+        ],
+        "benefits": [
+          "Increased Living Space",
+          "Increased Home Value",
+          "Customized Design",
+          "Improved Functionality"
+        ],
+        "faq": [
+          {
+            "question": "How long does a room addition typically take?",
+            "answer": "The timeline varies depending on the size and complexity of the project, but most room additions take between 2-4 months. We'll provide a detailed timeline during the planning phase."
+          },
+          {
+            "question": "Will a room addition require permits?",
+            "answer": "Yes, all room additions require permits. We will handle the permit process for you, ensuring that your project complies with all local building codes."
+          },
+          {
+            "question": "Can you match the existing style of my home?",
+            "answer": "Yes, we can seamlessly integrate the new addition with the existing style of your home. We'll carefully match the materials, colors, and architectural details to create a cohesive look."
+          }
+        ]
+      },
+      {
+        "slug": "outdoor-living-spaces",
+        "name": "Outdoor Living Spaces",
+        "shortDescription": "Create the perfect outdoor oasis with custom patios, decks, and more.",
+        "description": "Las Vegas offers amazing weather for much of the year, so why not maximize enjoyment of your property? Danube Construction specializes in creating custom outdoor living spaces that enhance your lifestyle and increase the value of your home. We design and build patios, decks, pergolas, outdoor kitchens, and more. We understand the unique challenges of building in the Las Vegas climate, including dealing with extreme heat, intense sunlight, and occasional dust storms. We'll use durable, weather-resistant materials and construction techniques to ensure your outdoor living space is comfortable, functional, and built to last.\n\nOur outdoor living space process begins with a thorough assessment of your property and a detailed design consultation. We'll discuss your needs, preferences, and budget to develop a customized plan that meets your specific requirements. Our skilled craftsmen then execute the plan with precision and care, paying attention to every detail. We handle everything from site preparation and foundation work to decking and landscaping. We'll also ensure that your outdoor living space complies with all local building codes and regulations.\n\nTransform your backyard into a relaxing and inviting retreat with a custom outdoor living space from Danube Construction.",
+        "process": [
+          "Step 1: Site Evaluation & Design",
+          "Step 2: Material Selection & Permitting",
+          "Step 3: Construction & Installation",
+          "Step 4: Landscaping & Finishing Touches"
+        ],
+        "benefits": [
+          "Increased Home Value",
+          "Expanded Living Space",
+          "Enhanced Entertainment Options",
+          "Improved Outdoor Enjoyment"
+        ],
+        "faq": [
+          {
+            "question": "What materials are best for outdoor decks in Las Vegas?",
+            "answer": "Composite decking and pressure-treated lumber are both excellent choices for outdoor decks in Las Vegas. They are durable, weather-resistant, and easy to maintain."
+          },
+          {
+            "question": "Do I need a permit for an outdoor patio or deck?",
+            "answer": "In most cases, yes. We will handle the permit process for you, ensuring that your project complies with all local building codes."
+          },
+          {
+            "question": "Can you incorporate a fire pit or outdoor kitchen into my design?",
+            "answer": "Yes, we can design and build custom fire pits and outdoor kitchens to enhance your outdoor living space."
+          }
+        ]
+      },
+      {
+        "slug": "stucco-repair-and-replacement",
+        "name": "Stucco Repair and Replacement",
+        "shortDescription": "Protect and beautify your Las Vegas home with our stucco services.",
+        "description": "Stucco is a common exterior finish in Las Vegas, but it can be susceptible to damage from the extreme heat, intense sunlight, and occasional dust storms. Cracks, chips, and discoloration can not only detract from the appearance of your home but also compromise its structural integrity. Danube Construction offers expert stucco repair and replacement services to protect and beautify your Las Vegas home. We'll assess the condition of your stucco, identify the underlying causes of the damage, and recommend the most appropriate solution.\n\nOur stucco repair and replacement process begins with a thorough inspection of your exterior walls. We'll identify any cracks, chips, or other damage and determine the extent of the problem. We then prepare the surface by cleaning and patching any damaged areas. We use high-quality stucco materials and proven techniques to ensure a durable and long-lasting repair. If the damage is too extensive, we may recommend a full stucco replacement. We'll carefully remove the old stucco and apply a new layer, ensuring a smooth and even finish. We can also match the existing color and texture of your stucco to maintain the aesthetic appeal of your home.\n\nProtect your investment and enhance the curb appeal of your home with professional stucco repair and replacement services from Danube Construction.",
+        "process": [
+          "Step 1: Detailed Inspection & Assessment",
+          "Step 2: Surface Preparation & Cleaning",
+          "Step 3: Stucco Repair or Replacement",
+          "Step 4: Color Matching & Texture Application",
+          "Step 5: Sealing & Protection"
+        ],
+        "benefits": [
+          "Improved Curb Appeal",
+          "Protection from the Elements",
+          "Increased Home Value",
+          "Prevention of Further Damage"
+        ],
+        "faq": [
+          {
+            "question": "How often should I inspect my stucco for damage?",
+            "answer": "It's a good idea to inspect your stucco at least once a year, especially after heavy rain or windstorms. Look for cracks, chips, or discoloration."
+          },
+          {
+            "question": "What causes stucco to crack?",
+            "answer": "Stucco can crack due to a variety of factors, including temperature fluctuations, ground movement, and improper installation."
+          },
+          {
+            "question": "Can you match the existing color and texture of my stucco?",
+            "answer": "Yes, we can carefully match the existing color and texture of your stucco to ensure a seamless repair."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Henderson",
+        "slug": "henderson-nv",
+        "state": "NV",
+        "content": "Danube Construction is proud to offer comprehensive remodeling services to homeowners in Henderson, Nevada. Known for its meticulously planned communities developed from the 1990s through today, Henderson presents unique remodeling opportunities. We understand the specific construction styles and homeowner association guidelines common in neighborhoods like Green Valley, Anthem, and Seven Hills.\n\nOur team is equipped to handle Henderson's demanding climate, especially the extreme summer heat that often exceeds 115°F. We use materials and techniques that are designed to withstand the intense sun and temperature fluctuations, ensuring the longevity and durability of your remodeled space. From energy-efficient window replacements to heat-resistant roofing solutions, Danube Construction provides remodeling services tailored to Henderson's unique needs.",
+        "localContext": "Henderson is a master-planned community experiencing extreme summer heat, requiring durable and energy-efficient remodeling solutions.",
+        "nearbyAreas": [
+          "Las Vegas",
+          "Paradise",
+          "Boulder City"
+        ]
+      },
+      {
+        "city": "North Las Vegas",
+        "slug": "north-las-vegas-nv",
+        "state": "NV",
+        "content": "Danube Construction provides remodeling and renovation expertise to North Las Vegas, Nevada, a rapidly growing city known for its affordable newer construction. We understand the specific needs of homeowners in communities featuring contemporary designs and efficient layouts. Our services are tailored to enhance the value and comfort of homes in neighborhoods like Aliante, Eldorado, and Skye Canyon.\n\nWe are aware that North Las Vegas experiences extreme summer heat, often exceeding 115°F. Danube Construction uses materials and construction techniques that are designed to withstand these harsh conditions. We prioritize energy-efficient solutions to help North Las Vegas residents minimize their utility bills and maintain comfortable living spaces year-round.",
+        "localContext": "North Las Vegas is characterized by more affordable newer construction and an extremely hot climate, requiring cost-effective and energy-efficient remodeling solutions.",
+        "nearbyAreas": [
+          "Las Vegas",
+          "Sunrise Manor",
+          "Nellis AFB"
+        ]
+      },
+      {
+        "city": "Summerlin",
+        "slug": "summerlin-nv",
+        "state": "NV",
+        "content": "Danube Construction offers premium remodeling services to homeowners in Summerlin, Nevada, an upscale master-planned community renowned for its beautiful neighborhoods and exceptional amenities. Developed from the 1990s through the present, Summerlin features a variety of architectural styles and homeowner association requirements. We understand the high standards of quality and design expected by Summerlin residents.\n\nOur team is experienced in working with the specific construction techniques and materials used in Summerlin homes. We are also mindful of the extreme summer heat, which often exceeds 115°F. Danube Construction employs energy-efficient solutions and durable materials to ensure that your remodeled space is both beautiful and able to withstand the harsh desert climate.",
+        "localContext": "Summerlin is an upscale master-planned community with extreme summer heat, demanding high-quality and energy-efficient remodeling.",
+        "nearbyAreas": [
+          "Las Vegas",
+          "Paradise",
+          "Spring Valley"
+        ]
+      },
+      {
+        "city": "Las Vegas",
+        "slug": "las-vegas-nv",
+        "state": "NV",
+        "content": "Danube Construction is your trusted partner for remodeling projects in Las Vegas, Nevada. From the historic neighborhoods of downtown to the modern homes in the suburbs, we have the experience and expertise to transform your living space. We understand the unique challenges and opportunities presented by the diverse architectural styles found throughout Las Vegas.\n\nWe are well-versed in dealing with the extreme temperatures of the Las Vegas climate. Danube Construction uses high-quality, durable materials and energy-efficient solutions to ensure that your remodel can withstand the desert heat and keep your home comfortable year-round. Whether you're looking to update your kitchen, renovate your bathroom, or add an addition to your home, we are committed to providing exceptional craftsmanship and customer service.",
+        "localContext": "Las Vegas offers diverse architectural styles and a harsh desert climate, requiring adaptable and durable remodeling services.",
+        "nearbyAreas": [
+          "Paradise",
+          "Henderson",
+          "North Las Vegas"
+        ]
+      },
+      {
+        "city": "Paradise",
+        "slug": "paradise-nv",
+        "state": "NV",
+        "content": "Danube Construction proudly serves the vibrant community of Paradise, Nevada, home to the world-famous Las Vegas Strip and a diverse range of residential areas. We understand the unique needs of homeowners in Paradise, from condo renovations near the casinos to complete home remodels in established neighborhoods. Our team is experienced in navigating the specific building codes and permitting processes in the area.\n\nWe are also aware of the extreme summer heat that Paradise experiences. Danube Construction prioritizes energy-efficient solutions and durable materials to ensure that your remodeled space is both stylish and able to withstand the harsh desert climate. We work closely with our clients to create custom remodeling plans that meet their individual needs and budgets.",
+        "localContext": "Paradise is known for the Las Vegas Strip and extreme summer heat, requiring remodeling solutions that balance style, durability, and energy efficiency.",
+        "nearbyAreas": [
+          "Las Vegas",
+          "Winchester",
+          "Enterprise"
+        ]
+      },
+      {
+        "city": "Spring Valley",
+        "slug": "spring-valley-nv",
+        "state": "NV",
+        "content": "Danube Construction offers a full range of remodeling services to homeowners in Spring Valley, Nevada, a diverse and growing community located just west of the Las Vegas Strip. We understand the unique character of Spring Valley, with its mix of established neighborhoods and newer developments. Our team is dedicated to providing high-quality craftsmanship and exceptional customer service.\n\nWe are also mindful of the extreme summer heat that Spring Valley experiences. Danube Construction uses materials and techniques that are designed to withstand the harsh desert climate, ensuring the longevity and durability of your remodeled space. From energy-efficient window replacements to heat-resistant roofing solutions, we provide remodeling services tailored to the specific needs of Spring Valley residents.",
+        "localContext": "Spring Valley is a diverse community with extreme summer heat, requiring durable and climate-appropriate remodeling solutions.",
+        "nearbyAreas": [
+          "Las Vegas",
+          "Summerlin South",
+          "Enterprise"
+        ]
+      },
+      {
+        "city": "Enterprise",
+        "slug": "enterprise-nv",
+        "state": "NV",
+        "content": "Danube Construction provides professional remodeling services to the residents of Enterprise, Nevada, a rapidly growing community located in the southern part of the Las Vegas Valley. Known for its newer homes and family-friendly environment, Enterprise offers unique remodeling opportunities. We understand the specific construction styles and homeowner association guidelines common in the area.\n\nOur team is equipped to handle Enterprise's demanding climate, especially the extreme summer heat that often exceeds 115°F. We use materials and techniques that are designed to withstand the intense sun and temperature fluctuations, ensuring the longevity and durability of your remodeled space. From energy-efficient window replacements to heat-resistant roofing solutions, Danube Construction provides remodeling services tailored to Enterprise's unique needs.",
+        "localContext": "Enterprise is a newer, family-friendly community experiencing extreme summer heat, requiring durable and energy-efficient remodeling solutions.",
+        "nearbyAreas": [
+          "Henderson",
+          "Spring Valley",
+          "Paradise"
+        ]
+      },
+      {
+        "city": "Sunrise Manor",
+        "slug": "sunrise-manor-nv",
+        "state": "NV",
+        "content": "Danube Construction is committed to providing exceptional remodeling services to homeowners in Sunrise Manor, Nevada. As a well-established community with a diverse range of housing styles, Sunrise Manor presents unique remodeling opportunities. We understand the specific needs and preferences of homeowners in this area, from updating older homes to creating modern, functional living spaces.\n\nWe are also aware of the extreme summer heat that Sunrise Manor experiences. Danube Construction uses high-quality, durable materials and energy-efficient solutions to ensure that your remodel can withstand the desert heat and keep your home comfortable year-round. Whether you're looking to update your kitchen, renovate your bathroom, or add an addition to your home, we are dedicated to providing exceptional craftsmanship and customer service.",
+        "localContext": "Sunrise Manor is a well-established community with extreme summer heat, requiring durable and climate-appropriate remodeling solutions tailored to a variety of home styles.",
+        "nearbyAreas": [
+          "Las Vegas",
+          "North Las Vegas",
+          "Winchester"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Maria G.",
+        "rating": 5,
+        "service": "Kitchen Remodel",
+        "text": "Danube Construction completely transformed my outdated kitchen into a modern masterpiece! They were professional, communicative, and the quality of their work is outstanding. I highly recommend them for any remodeling project. The new countertops are perfect for the Vegas heat!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Robert S.",
+        "rating": 4,
+        "service": "Bathroom Remodel",
+        "text": "We hired Danube Construction to remodel our master bathroom, and we're very happy with the results. The new walk-in shower is fantastic, and the tile work is impeccable. There were a few minor delays, but they communicated well and made sure everything was completed to our satisfaction.",
+        "date": "2024-11-20"
+      },
+      {
+        "name": "Linda K.",
+        "rating": 5,
+        "service": "Stucco Repair",
+        "text": "The extreme heat here in Las Vegas had really taken a toll on the stucco on my house. Danube Construction did an excellent job repairing the cracks and matching the existing texture. My house looks brand new! Their pricing was fair, and the crew was professional and efficient.",
+        "date": "2024-09-01"
+      },
+      {
+        "name": "David L.",
+        "rating": 5,
+        "service": "Room Addition",
+        "text": "Danube Construction built a new home office for me, and it's exactly what I needed. The process was smooth, and they were very helpful in navigating the permitting process. They really understand the challenges of building in the Vegas climate.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "Susan M.",
+        "rating": 4,
+        "service": "Outdoor Living Space",
+        "text": "We had Danube Construction build a covered patio in our backyard, and we love it! It's the perfect place to relax and enjoy the Vegas evenings. The quality of the workmanship is excellent, and they were very responsive to our questions and concerns.",
+        "date": "2024-07-05"
+      },
+      {
+        "name": "Michael B.",
+        "rating": 5,
+        "service": "Whole House Remodel",
+        "text": "Danube Construction took on a huge project, remodeling our entire home. It was a stressful time, but they were professional and kept us informed every step of the way. The end result is amazing. It feels like a brand new house. They helped us modernize and make the house more energy efficient.",
+        "date": "2025-04-01"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Danube Construction: Vegas Remodeling",
+        "description": "Expert remodeling contractor in Las Vegas, NV. Kitchens, bathrooms, whole-home renovations. Free quotes!"
+      },
+      "about": {
+        "title": "About Danube Construction",
+        "description": "Learn about Danube Construction, a trusted remodeling contractor in Las Vegas. Our values, experience, and commitment to quality."
+      },
+      "services": {
+        "title": "Danube Construction Services",
+        "description": "Comprehensive remodeling services in Las Vegas: Kitchens, bathrooms, additions, stucco. Quality workmanship guaranteed."
+      },
+      "contact": {
+        "title": "Contact Danube Construction",
+        "description": "Contact Danube Construction for your Las Vegas remodeling project. Get a free quote and expert advice today!"
+      },
+      "reviews": {
+        "title": "Danube Construction Reviews",
+        "description": "Read reviews from satisfied Danube Construction customers in Las Vegas. See what they say about our remodeling services."
+      },
+      "service-areas": {
+        "title": "Danube Construction Service Areas",
+        "description": "Danube Construction provides remodeling services in Las Vegas, Henderson, North Las Vegas, Summerlin, and surrounding areas."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "kitchen-remodeling": "/images/service-kitchen-remodeling.webp",
+      "bathroom-remodeling": "/images/service-bathroom-remodeling.webp",
+      "whole-house-remodeling": "/images/service-whole-house-remodeling.webp",
+      "room-additions": "/images/service-room-additions.webp",
+      "outdoor-living-spaces": "/images/service-outdoor-living-spaces.webp",
+      "stucco-repair-and-replacement": "/images/service-stucco-repair-and-replacement.webp"
+    },
+    "servicesResponsive": {
+      "kitchen-remodeling": {
+        "src": "/images/service-kitchen-remodeling.webp",
+        "srcset": "/images/service-kitchen-remodeling-400w.webp 400w, /images/service-kitchen-remodeling-800w.webp 800w, /images/service-kitchen-remodeling-1200w.webp 1200w, /images/service-kitchen-remodeling.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "bathroom-remodeling": {
+        "src": "/images/service-bathroom-remodeling.webp",
+        "srcset": "/images/service-bathroom-remodeling-400w.webp 400w, /images/service-bathroom-remodeling-800w.webp 800w, /images/service-bathroom-remodeling-1200w.webp 1200w, /images/service-bathroom-remodeling.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "whole-house-remodeling": {
+        "src": "/images/service-whole-house-remodeling.webp",
+        "srcset": "/images/service-whole-house-remodeling-400w.webp 400w, /images/service-whole-house-remodeling-800w.webp 800w, /images/service-whole-house-remodeling-1200w.webp 1200w, /images/service-whole-house-remodeling.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "room-additions": {
+        "src": "/images/service-room-additions.webp",
+        "srcset": "/images/service-room-additions-400w.webp 400w, /images/service-room-additions-800w.webp 800w, /images/service-room-additions-1200w.webp 1200w, /images/service-room-additions.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "outdoor-living-spaces": {
+        "src": "/images/service-outdoor-living-spaces.webp",
+        "srcset": "/images/service-outdoor-living-spaces-400w.webp 400w, /images/service-outdoor-living-spaces-800w.webp 800w, /images/service-outdoor-living-spaces-1200w.webp 1200w, /images/service-outdoor-living-spaces.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "stucco-repair-and-replacement": {
+        "src": "/images/service-stucco-repair-and-replacement.webp",
+        "srcset": "/images/service-stucco-repair-and-replacement-400w.webp 400w, /images/service-stucco-repair-and-replacement-800w.webp 800w, /images/service-stucco-repair-and-replacement-1200w.webp 1200w, /images/service-stucco-repair-and-replacement.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
